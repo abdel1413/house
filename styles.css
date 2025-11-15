@@ -119,15 +119,20 @@ background-color: blue;
  }
 #welcome{
     position: absolute;
-    bottom: 50px;
-  left: 240px;
-    z-index: 5;
+    bottom: -50px;
+  left: 150px;
     color: white;
-    padding: 20px;
     border: 2px solid black;
-    border-width: .5em;
-    width: 50px;
-    height: 20px;
-    background-color: beige;
+    border-width: .3em;
+    width: 160px;
+    height: 25px;
+    padding: 5px;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    transform: skewX(-25deg);
+    background-color: transparent
+   
     
 }
