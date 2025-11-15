@@ -1,9 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#b3e6ff, #b3e6ff 60%, green 60%);
+    height: 100vh;
+}
+
 #house{
   margin-top: 60px;
   position: relative;
   width: 500px;
   height: 400px;
-  background-color: pink;
+  background-color: blue;
   border: 2px solid green;
 
 
@@ -18,7 +28,7 @@ h1{
 
 #chimney{
    position: absolute;
-   top: -50px;
+   top: -100px;
    right: 40px;
    z-index: 1;
   width: 50px;
@@ -32,7 +42,7 @@ h1{
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -2;
+  z-index: 2;
   width: 500px;
   height: 100px;
   border: 2px solid darkblue;
@@ -50,6 +60,18 @@ h1{
   width: 100px;
   height: 130px;
   border: 2px solid green;
+  border-width: .8em;
+  background-color: yellow;
+}
+#window-1-1{
+  position: absolute;
+  top: 130px;
+  left: 30px;
+  z-index: 2;
+  width: 50px;
+  height: 130px;
+  border: 2px solid green;
+  border-width: .8em;
   background-color: yellow;
 }
 #window-2{
@@ -60,6 +82,18 @@ h1{
   width: 100px;
   height: 130px;
   border: 2px solid green;
+  border-width: .8em;
+  background-color:yellow;
+}
+#window-2-2{
+  position: absolute;
+  top: 130px ;
+  right: 60px;
+  z-index: 2;
+  width: 50px;
+  height: 130px;
+  border: 2px solid green;
+  border-width: .8em;
   background-color:yellow;
 }
 
@@ -69,7 +103,24 @@ h1{
   bottom: 0px;
   width: 150px;
   height: 200px;
-  border: 2px solid gray;
-background-color: black;
+  border: 4px solid yellowgreen;
+background-color: yellow;
 }
 
+ #padlock{
+position: absolute;
+bottom: 100px;
+left: 280px;
+z-index: 1;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+background-color: blue;
+ }
+#welcome{
+    position: absolute;
+    bottom: 10px;
+  left: 240px;
+    z-index: 1;
+    color: white
+}
